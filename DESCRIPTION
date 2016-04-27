@@ -1,0 +1,20 @@
+Package: luxmatrix
+Type: Package
+Title: Utilities used by the Elucidor "R +" Package Series
+Version: 0.1.0
+Date: 2016-04-26
+Author: Howard Zail
+Maintainer: <lux@elucidor.com>
+Description: Series of useful functions used by the Lux series of packages.
+License: Private, copyright 2016
+LazyData: TRUE
+URL: http://github.com/howardnewyork/rpmath
+BugReports: http://github.com/howardnewyork/rpmath/issues
+Imports:
+    Rcpp (>= 0.11.4),
+    dplyr
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

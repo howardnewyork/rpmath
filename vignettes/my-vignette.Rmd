@@ -1,0 +1,15 @@
+---
+title: "Lux Matrix"
+author: "Howard Zail"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+luxmatrix is a package that contains a series of speedy and efficient helper functions that are used in the `Lux` series of packages developed by Elucidor, LLC.  
+
+For more information about Elucidor, see [www.elucidor.com](http://www.elucidor.com).
+
