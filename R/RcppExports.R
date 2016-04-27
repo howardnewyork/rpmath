@@ -10,7 +10,7 @@
 #' cumSumRow(a)
 #' @export
 cumSumRow <- function(x) {
-    .Call('luxmatrix_cumSumRow', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_cumSumRow', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the cumulative sum of each column in a matrix
@@ -21,7 +21,7 @@ cumSumRow <- function(x) {
 #' cumSumCol(a)
 #' @export
 cumSumCol <- function(x) {
-    .Call('luxmatrix_cumSumCol', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_cumSumCol', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the limited cumulative sum of each column in a matrix
@@ -33,7 +33,7 @@ cumSumCol <- function(x) {
 #' sumColLimited(a, limits = c(1,2,3))
 #' @export
 sumColLimited <- function(x, limits) {
-    .Call('luxmatrix_sumColLimited', PACKAGE = 'luxmatrix', x, limits)
+    .Call('rpmath_sumColLimited', PACKAGE = 'rpmath', x, limits)
 }
 
 #' Calculate the limited cumulative sum of each row in a matrix
@@ -45,7 +45,7 @@ sumColLimited <- function(x, limits) {
 #' sumRowLimited(a, limits = c(1,2,3))
 #' @export
 sumRowLimited <- function(x, limits) {
-    .Call('luxmatrix_sumRowLimited', PACKAGE = 'luxmatrix', x, limits)
+    .Call('rpmath_sumRowLimited', PACKAGE = 'rpmath', x, limits)
 }
 
 #' Calculate the product of each row in a matrix
@@ -57,7 +57,7 @@ sumRowLimited <- function(x, limits) {
 #' prodRow(a)
 #' @export
 prodRow <- function(x) {
-    .Call('luxmatrix_prodRow', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_prodRow', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the product of each column in a matrix
@@ -69,7 +69,7 @@ prodRow <- function(x) {
 #' prodCol(a)
 #' @export
 prodCol <- function(x) {
-    .Call('luxmatrix_prodCol', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_prodCol', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the cumulative product of each row in a matrix
@@ -81,7 +81,7 @@ prodCol <- function(x) {
 #' cumProdRow(a)
 #' @export
 cumProdRow <- function(x) {
-    .Call('luxmatrix_cumProdRow', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_cumProdRow', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the cumulative product of each column in a matrix
@@ -92,7 +92,7 @@ cumProdRow <- function(x) {
 #' cumProdCol(a)
 #' @export
 cumProdCol <- function(x) {
-    .Call('luxmatrix_cumProdCol', PACKAGE = 'luxmatrix', x)
+    .Call('rpmath_cumProdCol', PACKAGE = 'rpmath', x)
 }
 
 #' Calculate the limited cumulative product of each row in a matrix.
@@ -104,7 +104,7 @@ cumProdCol <- function(x) {
 #' prodRowLimited(a, c(1,2,3))
 #' @export
 prodRowLimited <- function(x, limits) {
-    .Call('luxmatrix_prodRowLimited', PACKAGE = 'luxmatrix', x, limits)
+    .Call('rpmath_prodRowLimited', PACKAGE = 'rpmath', x, limits)
 }
 
 #' Calculate the limited cumulative product of each column in a matrix
@@ -116,7 +116,7 @@ prodRowLimited <- function(x, limits) {
 #' prodColLimited(a, limits = c(1,2,3))
 #' @export
 prodColLimited <- function(x, limits) {
-    .Call('luxmatrix_prodColLimited', PACKAGE = 'luxmatrix', x, limits)
+    .Call('rpmath_prodColLimited', PACKAGE = 'rpmath', x, limits)
 }
 
 #' Extract values from a matrix with uneven column offsets
@@ -132,10 +132,10 @@ prodColLimited <- function(x, limits) {
 #' raggedExtract(mat=a, position = c(1,2,3), width = 3)
 #' @export
 raggedExtract <- function(mat, position, width, extensionMethod = "none", extensionValue = 0) {
-    .Call('luxmatrix_raggedExtract', PACKAGE = 'luxmatrix', mat, position, width, extensionMethod, extensionValue)
+    .Call('rpmath_raggedExtract', PACKAGE = 'rpmath', mat, position, width, extensionMethod, extensionValue)
 }
 
 repMatrixCpp <- function(vec, times, ncol) {
-    .Call('luxmatrix_repMatrixCpp', PACKAGE = 'luxmatrix', vec, times, ncol)
+    .Call('rpmath_repMatrixCpp', PACKAGE = 'rpmath', vec, times, ncol)
 }
 

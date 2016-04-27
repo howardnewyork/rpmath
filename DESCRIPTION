@@ -1,4 +1,4 @@
-Package: luxmatrix
+Package: rpmath
 Type: Package
 Title: Utilities used by the Elucidor "R +" Package Series
 Version: 0.1.0
