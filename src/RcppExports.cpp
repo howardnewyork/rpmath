@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // cumSumRow
 NumericMatrix cumSumRow(NumericMatrix x);
-RcppExport SEXP luxmatrix_cumSumRow(SEXP xSEXP) {
+RcppExport SEXP rpmath_cumSumRow(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -18,7 +18,7 @@ END_RCPP
 }
 // cumSumCol
 NumericMatrix cumSumCol(NumericMatrix x);
-RcppExport SEXP luxmatrix_cumSumCol(SEXP xSEXP) {
+RcppExport SEXP rpmath_cumSumCol(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -29,7 +29,7 @@ END_RCPP
 }
 // sumColLimited
 NumericVector sumColLimited(NumericMatrix x, NumericVector limits);
-RcppExport SEXP luxmatrix_sumColLimited(SEXP xSEXP, SEXP limitsSEXP) {
+RcppExport SEXP rpmath_sumColLimited(SEXP xSEXP, SEXP limitsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -41,7 +41,7 @@ END_RCPP
 }
 // sumRowLimited
 NumericVector sumRowLimited(NumericMatrix x, NumericVector limits);
-RcppExport SEXP luxmatrix_sumRowLimited(SEXP xSEXP, SEXP limitsSEXP) {
+RcppExport SEXP rpmath_sumRowLimited(SEXP xSEXP, SEXP limitsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -53,7 +53,7 @@ END_RCPP
 }
 // prodRow
 NumericVector prodRow(NumericMatrix x);
-RcppExport SEXP luxmatrix_prodRow(SEXP xSEXP) {
+RcppExport SEXP rpmath_prodRow(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -64,7 +64,7 @@ END_RCPP
 }
 // prodCol
 NumericVector prodCol(NumericMatrix x);
-RcppExport SEXP luxmatrix_prodCol(SEXP xSEXP) {
+RcppExport SEXP rpmath_prodCol(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -75,7 +75,7 @@ END_RCPP
 }
 // cumProdRow
 NumericMatrix cumProdRow(NumericMatrix x);
-RcppExport SEXP luxmatrix_cumProdRow(SEXP xSEXP) {
+RcppExport SEXP rpmath_cumProdRow(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -86,7 +86,7 @@ END_RCPP
 }
 // cumProdCol
 NumericMatrix cumProdCol(NumericMatrix x);
-RcppExport SEXP luxmatrix_cumProdCol(SEXP xSEXP) {
+RcppExport SEXP rpmath_cumProdCol(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -97,7 +97,7 @@ END_RCPP
 }
 // prodRowLimited
 NumericVector prodRowLimited(NumericMatrix x, NumericVector limits);
-RcppExport SEXP luxmatrix_prodRowLimited(SEXP xSEXP, SEXP limitsSEXP) {
+RcppExport SEXP rpmath_prodRowLimited(SEXP xSEXP, SEXP limitsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -109,7 +109,7 @@ END_RCPP
 }
 // prodColLimited
 NumericVector prodColLimited(NumericMatrix x, NumericVector limits);
-RcppExport SEXP luxmatrix_prodColLimited(SEXP xSEXP, SEXP limitsSEXP) {
+RcppExport SEXP rpmath_prodColLimited(SEXP xSEXP, SEXP limitsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -121,7 +121,7 @@ END_RCPP
 }
 // raggedExtract
 NumericMatrix raggedExtract(NumericMatrix mat, IntegerVector position, int width, String extensionMethod, double extensionValue);
-RcppExport SEXP luxmatrix_raggedExtract(SEXP matSEXP, SEXP positionSEXP, SEXP widthSEXP, SEXP extensionMethodSEXP, SEXP extensionValueSEXP) {
+RcppExport SEXP rpmath_raggedExtract(SEXP matSEXP, SEXP positionSEXP, SEXP widthSEXP, SEXP extensionMethodSEXP, SEXP extensionValueSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
@@ -136,7 +136,7 @@ END_RCPP
 }
 // repMatrixCpp
 NumericMatrix repMatrixCpp(NumericVector vec, IntegerVector times, int ncol);
-RcppExport SEXP luxmatrix_repMatrixCpp(SEXP vecSEXP, SEXP timesSEXP, SEXP ncolSEXP) {
+RcppExport SEXP rpmath_repMatrixCpp(SEXP vecSEXP, SEXP timesSEXP, SEXP ncolSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
     Rcpp::RNGScope __rngScope;
