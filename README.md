@@ -9,6 +9,9 @@ For more information about Elucidor, please see [www.elucidor.com](http://www.el
 
 # Installation
 
+install rtools
+
 install.packages("devtools") # if you have not installed "devtools" package
-devtools::install_github("howardnewyork/rpmath")
+
+devtools::install_github("howardnewyork/rpmath", build_vignettes = TRUE)
 

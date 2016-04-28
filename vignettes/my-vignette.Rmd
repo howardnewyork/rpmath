@@ -1,15 +1,15 @@
 ---
-title: "Lux Matrix"
+title: "R+ Math"
 author: "Howard Zail"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{R+ Math}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-luxmatrix is a package that contains a series of speedy and efficient helper functions that are used in the `Lux` series of packages developed by Elucidor, LLC.  
+R+ Math (rpmath) is a package that contains a series of speedy and efficient helper functions that are used in the `R+` series of packages developed by Elucidor, LLC.  
 
 The functions target core calculations such as cumulative sums and products that are heavily used in actuarial and financial calculations particularly when dealing with large portfolios of policies or assets.
 
