@@ -11,5 +11,24 @@ vignette: >
 
 luxmatrix is a package that contains a series of speedy and efficient helper functions that are used in the `Lux` series of packages developed by Elucidor, LLC.  
 
-For more information about Elucidor, see [www.elucidor.com](http://www.elucidor.com).
+The functions target core calculations such as cumulative sums and products that are heavily used in actuarial and financial calculations particularly when dealing with large portfolios of policies or assets.
+
+# Cumulative Calculation Functions
+
+The package contains a series of cumulative calculation functions that are designed to work on matrices rather than vectors.  For example:
+
+* cumSumRow: Calculates the cumulative sum of each row
+* cumProdCol: Calculates the cumulative productive of each column
+
+The package contains the obvious combination of sums, cumulative sums, product and cumulative product calculations that can be applied to matrices
+
+# Special Functions
+
+* raggedExtract:  This is a very useful function that extracts segments of each row in a matrix but with the ability to start at a different point in each row.  
+
+# Contact 
+
+For more information about Elucidor, see [www.elucidor.com](http://www.elucidor.com), or email us at rplus@elucidor.com.
+
+
 

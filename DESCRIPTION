@@ -1,11 +1,11 @@
 Package: rpmath
 Type: Package
-Title: Utilities used by the Elucidor "R +" Package Series
+Title: Utilities used by the Elucidor Lux Package Series
 Version: 0.1.0
 Date: 2016-04-26
 Author: Howard Zail
-Maintainer: <lux@elucidor.com>
-Description: Series of useful functions used by the Lux series of packages.
+Maintainer: <rplus@elucidor.com>
+Description: Series of useful functions used by the R + series of packages. The functions are designed to run quickly and efficiently.  Many of the functions are written in C++.
 License: Private, copyright 2016
 LazyData: TRUE
 URL: http://github.com/howardnewyork/rpmath
